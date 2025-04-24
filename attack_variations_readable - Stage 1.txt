@@ -1,0 +1,139 @@
+Base Attacks:
+- Name: XSS via Prompt Injection
+  Mechanism: Injecting malicious scripts into a prompt dialog box to execute arbitrary code
+  Discovery Date: 2010-06-15
+  Documentation: https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)#Prompt_Box
+
+- Name: Phishing via Prompt Injection
+  Mechanism: Displaying fake login prompts to steal user credentials
+  Discovery Date: 2015-03-20
+  Documentation: https://blog.detectify.com/2015/03/20/phishing-via-prompt-box/
+
+- Name: Credential Harvesting via Prompt Injection
+  Mechanism: Tricking users into entering sensitive information into a prompt dialog
+  Discovery Date: 2018-11-10
+  Documentation: https://portswigger.net/web-security/cross-site-scripting/indirect/credential-harvesting
+
+- Name: Alert Spam via Prompt Injection
+  Mechanism: Generating multiple alert boxes to annoy users and disrupt their browsing experience
+  Discovery Date: 2016-08-05
+  Documentation: https://www.bleepingcomputer.com/news/security/scammers-use-prompt-dialogs-to-prevent-browsing-on-windows/
+
+- Name: Data Exfiltration via Prompt Injection
+  Mechanism: Stealing sensitive data by prompting users to enter confidential information
+  Discovery Date: 2019-05-25
+  Documentation: https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/
+
+Variations:
+- Original Attack: XSS via Prompt Injection
+  Variation Text: Injection of malicious code into prompt dialog for code execution
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: XSS via Prompt Injection
+  Variation Text: Prompt box script injection leading to arbitrary code execution
+  Modification Type: Word substitution
+  Metadata: {}
+
+- Original Attack: XSS via Prompt Injection
+  Variation Text: Prompt-based script injection for executing unauthorized commands
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: XSS via Prompt Injection
+  Variation Text: Executing arbitrary code by injecting malicious scripts through prompt
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: Phishing via Prompt Injection
+  Variation Text: Using deceptive prompts to acquire user credentials
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: Phishing via Prompt Injection
+  Variation Text: Displaying fraudulent login pop-ups to steal user information
+  Modification Type: Word substitution
+  Metadata: {}
+
+- Original Attack: Phishing via Prompt Injection
+  Variation Text: Prompt-based scam for obtaining sensitive data
+  Modification Type: Acronym changes
+  Metadata: {}
+
+- Original Attack: Phishing via Prompt Injection
+  Variation Text: Using fake alerts to trick users into revealing login details
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: Credential Harvesting via Prompt Injection
+  Variation Text: Phishing for Credentials through Prompt Injection
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: Credential Harvesting via Prompt Injection
+  Variation Text: Prompt Dialog Scam for Sensitive Information
+  Modification Type: Word Substitution
+  Metadata: {}
+
+- Original Attack: Credential Harvesting via Prompt Injection
+  Variation Text: Tricking Users with Prompt Dialog for Credentials
+  Modification Type: Word Addition
+  Metadata: {}
+
+- Original Attack: Credential Harvesting via Prompt Injection
+  Variation Text: Data Theft through Prompt Injection Deception
+  Modification Type: Word Substitution
+  Metadata: {}
+
+- Original Attack: Alert Spam via Prompt Injection
+  Variation Text: Creating numerous alert boxes to irritate users and disrupt their browsing experience
+  Modification Type: Rephrasing
+  Metadata: {}
+
+- Original Attack: Alert Spam via Prompt Injection
+  Variation Text: Generating multiple pop-up alerts to bother users and interrupt their browsing experience
+  Modification Type: Word substitution
+  Metadata: {}
+
+- Original Attack: Alert Spam via Prompt Injection
+  Variation Text: Triggering repeated prompts to annoy users and hinder their browsing experience
+  Modification Type: Word substitution
+  Metadata: {}
+
+- Original Attack: Alert Spam via Prompt Injection
+  Variation Text: Deploying various alert dialogs to disturb users and interfere with their browsing experience
+  Modification Type: Word substitution
+  Metadata: {}
+
+- Original Attack: Data Exfiltration via Prompt Injection
+  Variation Text: Confidential Information Theft using Prompt Injection
+  Modification Type: Rephrasing
+  Metadata: {
+  "discovery_date": "2019-05-25",
+  "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+}
+
+- Original Attack: Data Exfiltration via Prompt Injection
+  Variation Text: Prompting Users for Sensitive Data Theft
+  Modification Type: Word Substitution
+  Metadata: {
+  "discovery_date": "2019-05-25",
+  "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+}
+
+- Original Attack: Data Exfiltration via Prompt Injection
+  Variation Text: Data Theft through Prompt Injection
+  Modification Type: Word Substitution
+  Metadata: {
+  "discovery_date": "2019-05-25",
+  "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+}
+
+- Original Attack: Data Exfiltration via Prompt Injection
+  Variation Text: Prompt-based Confidential Data Theft
+  Modification Type: Rephrasing
+  Metadata: {
+  "discovery_date": "2019-05-25",
+  "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+}
+

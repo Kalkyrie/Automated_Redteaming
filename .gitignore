@@ -1,0 +1,17 @@
+# Environment variables
+*.env
+.env
+api_key.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.so

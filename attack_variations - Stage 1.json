@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "generation_date": "2025-04-01T19:43:14.213735",
+    "total_base_attacks": 5,
+    "total_variations": 20
+  },
+  "base_attacks": [
+    {
+      "name": "XSS via Prompt Injection",
+      "mechanism": "Injecting malicious scripts into a prompt dialog box to execute arbitrary code",
+      "discovery_date": "2010-06-15",
+      "documentation": "https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)#Prompt_Box"
+    },
+    {
+      "name": "Phishing via Prompt Injection",
+      "mechanism": "Displaying fake login prompts to steal user credentials",
+      "discovery_date": "2015-03-20",
+      "documentation": "https://blog.detectify.com/2015/03/20/phishing-via-prompt-box/"
+    },
+    {
+      "name": "Credential Harvesting via Prompt Injection",
+      "mechanism": "Tricking users into entering sensitive information into a prompt dialog",
+      "discovery_date": "2018-11-10",
+      "documentation": "https://portswigger.net/web-security/cross-site-scripting/indirect/credential-harvesting"
+    },
+    {
+      "name": "Alert Spam via Prompt Injection",
+      "mechanism": "Generating multiple alert boxes to annoy users and disrupt their browsing experience",
+      "discovery_date": "2016-08-05",
+      "documentation": "https://www.bleepingcomputer.com/news/security/scammers-use-prompt-dialogs-to-prevent-browsing-on-windows/"
+    },
+    {
+      "name": "Data Exfiltration via Prompt Injection",
+      "mechanism": "Stealing sensitive data by prompting users to enter confidential information",
+      "discovery_date": "2019-05-25",
+      "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+    }
+  ],
+  "variations": [
+    {
+      "original_attack": "XSS via Prompt Injection",
+      "variation_text": "Injection of malicious code into prompt dialog for code execution",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "XSS via Prompt Injection",
+      "variation_text": "Prompt box script injection leading to arbitrary code execution",
+      "modification_type": "Word substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "XSS via Prompt Injection",
+      "variation_text": "Prompt-based script injection for executing unauthorized commands",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "XSS via Prompt Injection",
+      "variation_text": "Executing arbitrary code by injecting malicious scripts through prompt",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Phishing via Prompt Injection",
+      "variation_text": "Using deceptive prompts to acquire user credentials",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Phishing via Prompt Injection",
+      "variation_text": "Displaying fraudulent login pop-ups to steal user information",
+      "modification_type": "Word substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Phishing via Prompt Injection",
+      "variation_text": "Prompt-based scam for obtaining sensitive data",
+      "modification_type": "Acronym changes",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Phishing via Prompt Injection",
+      "variation_text": "Using fake alerts to trick users into revealing login details",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Credential Harvesting via Prompt Injection",
+      "variation_text": "Phishing for Credentials through Prompt Injection",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Credential Harvesting via Prompt Injection",
+      "variation_text": "Prompt Dialog Scam for Sensitive Information",
+      "modification_type": "Word Substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Credential Harvesting via Prompt Injection",
+      "variation_text": "Tricking Users with Prompt Dialog for Credentials",
+      "modification_type": "Word Addition",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Credential Harvesting via Prompt Injection",
+      "variation_text": "Data Theft through Prompt Injection Deception",
+      "modification_type": "Word Substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Alert Spam via Prompt Injection",
+      "variation_text": "Creating numerous alert boxes to irritate users and disrupt their browsing experience",
+      "modification_type": "Rephrasing",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Alert Spam via Prompt Injection",
+      "variation_text": "Generating multiple pop-up alerts to bother users and interrupt their browsing experience",
+      "modification_type": "Word substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Alert Spam via Prompt Injection",
+      "variation_text": "Triggering repeated prompts to annoy users and hinder their browsing experience",
+      "modification_type": "Word substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Alert Spam via Prompt Injection",
+      "variation_text": "Deploying various alert dialogs to disturb users and interfere with their browsing experience",
+      "modification_type": "Word substitution",
+      "metadata": {}
+    },
+    {
+      "original_attack": "Data Exfiltration via Prompt Injection",
+      "variation_text": "Confidential Information Theft using Prompt Injection",
+      "modification_type": "Rephrasing",
+      "metadata": {
+        "discovery_date": "2019-05-25",
+        "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+      }
+    },
+    {
+      "original_attack": "Data Exfiltration via Prompt Injection",
+      "variation_text": "Prompting Users for Sensitive Data Theft",
+      "modification_type": "Word Substitution",
+      "metadata": {
+        "discovery_date": "2019-05-25",
+        "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+      }
+    },
+    {
+      "original_attack": "Data Exfiltration via Prompt Injection",
+      "variation_text": "Data Theft through Prompt Injection",
+      "modification_type": "Word Substitution",
+      "metadata": {
+        "discovery_date": "2019-05-25",
+        "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+      }
+    },
+    {
+      "original_attack": "Data Exfiltration via Prompt Injection",
+      "variation_text": "Prompt-based Confidential Data Theft",
+      "modification_type": "Rephrasing",
+      "metadata": {
+        "discovery_date": "2019-05-25",
+        "documentation": "https://www.netsparker.com/blog/web-security/data-exfiltration-via-cross-site-scripting/"
+      }
+    }
+  ]
+}
