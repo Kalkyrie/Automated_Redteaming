@@ -1,0 +1,22 @@
+remote_theme: just-the-docs/just-the-docs
+title: Automated Redteaming
+description: A collection of automated red teaming tools and scripts
+color_scheme: dark
+
+# Navigation
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/Kalkyrie/Automated_Redteaming
+    hide_icon: false
+
+# Theme settings
+search_enabled: true
+heading_anchors: true
+enable_copy_code_button: true
+footer_content: "Copyright &copy; 2024 Automated Redteaming Project"
+
+# Custom colors
+colors:
+  brand: "#7253ed"
+  sidebar: "#0d1117"
+  nav: "#171b22"
