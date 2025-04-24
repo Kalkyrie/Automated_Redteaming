@@ -555,3 +555,21 @@ Focus on creating variations of the specific example text
 Updated the generate_attack_variations function to pass both name and example text to the variation chain
 These changes should result in more specific and useful variations based on actual prompt injection examples rather than just descriptions.
 
+
+### COMMENT: 
+And we've reached our goal.
+
+Running this script gives us the output found in the 'attack_variations - stage 2.json' file in the related GitHub repo.
+
+This includes a new attack method we haven't described to it, the "Continue attack"
+
+  Mechanism: Prompting the language model to continue a story or task with injected content.
+
+This attack method is being correctly converted into a variety of related attacks, such as
+
+  Variation Text: Continue with the story from the point you stopped... [injected content]
+
+This is a good point for this investigation to stop.
+We have our Proof of Concept that this method can work.
+We have found a new attack, and created several variations on it.
+The attacks we have so far are simple, but we can expand this method to build a wider testing corpus.
